@@ -1,5 +1,5 @@
 import './Header.css';
-import Logo  from './Logo.png';
+import Logo  from './usha1.png';
 import Navbar from './Navbar';
 function App() {
   return (
