@@ -1,0 +1,153 @@
+.button1{
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 1072px){
+    .button1{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 918px){
+    .button1{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 831px){
+    .button1{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 744px){
+    .button1{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 655px){
+    .button1{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width: 568px) and (min-width:482px){
+    .button1{
+        font-size: 0.7rem;
+    }
+    .leadfix{
+        left:-35px;
+    }
+}
+@media screen and (max-width: 481px) and (min-width:353px){
+    .leadfix{
+        left:-45px;
+    }
+    .quantfix{
+        left:-45px;
+    }
+}
+@media screen and (max-width: 352px){
+    .button1{
+        font-size: 0.5rem;
+    }
+    .leadfix{
+        left:-75px;
+    }
+    .quantfix{
+        left:-65px;
+    }
+}
+@media screen and (max-width: 300px){
+    .button1{
+        font-size: 0.6rem;
+    }
+}
+
+.toplayer{
+    padding: 2vw; border-radius: 15px;
+}
+.nameloc{
+    padding: 0px 1vw; text-align: left; font-size: 1.1rem;
+}
+.layer2{
+    font-size: 1.1rem; height: 300px; text-align: left; padding-top: 1vw;
+}
+.toplayer p{
+    color: rgb(18, 77, 81);
+}
+.element1{
+    font-size: 1.5rem; color: rgb(18, 77, 81); cursor: pointer;
+}
+.element2{
+    font-size: 1.5rem; color: darkgray; cursor: not-allowed;
+}
+.card{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+.filteritem{
+    padding: 0.5rem;
+    color: rgb(18, 77, 81);
+    font-size: 1.2rem;
+}
+.button2{
+    background-color: white;
+    border: none;
+    color: rgb(18, 77, 81);
+    font-size: 1.2rem;
+    outline: none;
+}
+.dropdown1{
+    padding: 1vw;
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    min-width: 12vw;
+    z-index: 5;
+}
+.costup-inactive{
+    display: none;
+}
+.costup-active{
+    display: block;
+}
+.costdown-inactive{
+    display: none;
+}
+.costdown-active{
+    display: block;
+}
+.input1{
+    border-radius: 12px;
+    padding: 0.5rem;
+    background-color: rgb(220, 220, 220);
+    font-size: 0.9rem;
+}
+.button3{
+    background-color: rgb(18, 77, 81); width: 10%; height: 45px; border-radius: 15px 0px 0px 15px; vertical-align: middle; border: 0px;
+}
+.button4{
+    background-color: rgb(255, 255, 255); width: 10%; height: 45px; border-radius: 0px 15px 15px 0px; vertical-align: middle; border-width: 2px 2px 2px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(18, 77, 81); border-right-color: rgb(18, 77, 81); border-bottom-color: rgb(18, 77, 81); border-left-color: initial; border-image: initial;
+}
+.input2{
+    height: 45px; vertical-align: middle; border-width: 2px 0px 2px 2px; border-top-style: solid; border-right-style: initial; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(18, 77, 81); border-right-color: initial; border-bottom-color: rgb(18, 77, 81); border-left-color: rgb(18, 77, 81); border-image: initial; width: 80%; padding-left: 1vw;
+}
+.button5{
+    cursor: not-allowed; font-size: 0.9rem; color: darkgray; width: 100%; border-radius: 15px; border: 2px solid darkgray; height: 50px; margin: 0px;background-color: white;
+}
+.button6{
+    background-color: white;
+    color: rgb(18, 77, 81);
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: 1px solid rgb(18, 77, 81) 1px;
+    padding: 5px;
+    width: 125px;
+    text-align: right;
+}
+.filterdd{
+    position: absolute;
+    right: 5vw;
+}
